@@ -1,0 +1,74 @@
+TRABAJO EN EQUIPO EN GITHUB
+=====================================================================================================================	
+
+1- Invitar a colaboradores al repositorio.
+	- Dentro del repo en Github: Ir a Settings - Collaborators - Ingresar usuario del colaborador.
+	- El colaborador le llega una invitacion por correo. click en accept or decline. luego aceptar invitacion.
+
+2- El colaborador debe clonar el repositorio.
+	1- Aceptar invitacion por mail.
+
+	2- Posicionarse (entrar) en la carpeta que querramos utilizar para descargar el proyecto clonado.
+		- Abrir la consola git bash -> boton derecho dentro de la carpeta -> click "Git bash here"
+		- ejecutar el comando -> git clone rutaDelRepositorio, enter.
+	
+	NOTA: El colaborador no necesita iniciar Git (git init) ya que en el proyecto clonado ya se encuentra iniciado Git.
+
+	3- Debe crear su branch de trabajo:
+		git branch nombreRamaColab (crear la rama) 
+		git branch (listar las ramas y verificar que se creo)
+
+		Moverse a la rama creada:
+		git checkout nombreRamaColab (pasar a la rama)
+
+		O tambien se puede usar:
+		git checkout -b nombreRamaColab (crea la rama y nos posiciona en ella)
+
+		Conectar la rama local a github por unica vez:
+		git push -u origin nombreRamaColab
+		
+	***Ahora puede empezar a trabajar!!!***
+		
+
+		git pull origin master(o main) (Actualizar el repo Local, traer cambios antes de empezar a trabajar.)		
+
+		Cuando termina de modificar:
+		git status (para ver modificaciones)
+		
+		git add . (para guardar cambios al staging area)
+		
+		git commit -m "comentario de modificacion" (comitea el cambio)
+		
+		git log (ver todos los commit) // 
+		git log --online (ver en una linea)
+		git diff codCommit1 codCommit2 (compara diferencias entre commits)
+		
+		git push  ( Para enviar los cambios a github - Los envia a la ramaColab! )
+		(Puede que pida usuario y contraseña.)
+
+
+	El propietario del repo:
+		git checkout master (cambiarse a la rama master)
+
+		git merge ramaColab (pasar cambios de una rama al master)
+
+		git push origin master (para subir los cambios a github)
+
+
+ALGUNOS COMANDOS:
+============================================================================================================
+Fork: copia exacta de un repositorio, se crea en la cuenta del usuario que lo requiere como si fuera propio.
+pull request: 
+
+
+git remote: crear, ver y borrar la conexion con un repositorio remoto.
+	conectar: git remote add origin rutaDelRepositorio.
+	listar conexiones establecidas: git remote -v
+
+git branc -m nuevoNombreRama -> Renombrar una rama.
+
+git merge ramaOrigen (hay que posicionarse siempre en la rama destino para hacer el merge)
+
+git reset . -> Revierte a git add .
+
+git commit --amend -> Permite editar el ultimo commit (para salir: Esc y escribir :wq enter)
