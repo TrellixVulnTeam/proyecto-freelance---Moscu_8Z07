@@ -1,0 +1,28 @@
+@font-face {
+    font-family: AldoTheApache;
+    src: url("../../fonts/AldotheApache.ttf");
+}
+
+.navBarColor {
+    background-color: #cd3233;
+}
+
+.nav-link {
+    color: #fde9a7;
+    font-family: AldoTheApache;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar-inner {
+    background-image: url("../../img/mobile/menu_bg.png")!important;
+    background-repeat: repeat;
+}
