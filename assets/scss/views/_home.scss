@@ -1,0 +1,64 @@
+.siteContainer {
+  background-image: url("../img/bg_index.png");
+  background-repeat: repeat;
+  background-position: center;
+  width: 100vw;
+  .banner {
+    background-image: url("../img/sol_rojo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 1680px;
+    margin: 0 auto;
+    position: relative;
+    .banner__punch {
+      display: inline-block;
+      position: absolute;
+      top: 100%;
+      left: 55%;
+      transform: translate(-55%, -100%);
+      img {
+        width: 100%;
+        min-width: 200px;
+      }
+    }
+
+    .banner__punch--animation {
+      //animation: handBalance 3s
+      animation: appear 5s infinite alternate;
+    }
+
+    @keyframes appear {
+      0% {
+        display: none;
+        opacity: 1;
+        transform: translate(50%, -100%);
+      }
+
+      50% {
+      }
+
+      100% {
+        display: block;
+        transform: translate(50%, 100%);
+        opacity: 0;
+      }
+    }
+
+    // .banner__city {
+    //   width: 100%;
+    //   position: absolute;
+    //   top: 100%;
+    //   transform: translateY(-100%);
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: flex-end;
+    //   img {
+    //     width: 100%;
+    //     max-width: 400px;
+    //   }
+    // }
+  }
+}

@@ -4,5 +4,72 @@
   box-sizing: border-box; }
 
 body {
+  background-color: #f7e7ce; }
+
+.siteContainer {
   background-image: url("../img/bg_index.png");
-  background-repeat: repeat-y; }
+  background-repeat: repeat;
+  background-position: center;
+  width: 100vw; }
+  .siteContainer .banner {
+    background-image: url("../img/sol_rojo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-width: 1680px;
+    margin: 0 auto;
+    position: relative; }
+    .siteContainer .banner .banner__punch {
+      display: inline-block;
+      position: absolute;
+      top: 100%;
+      left: 55%;
+      transform: translate(-55%, -100%); }
+      .siteContainer .banner .banner__punch img {
+        width: 100%;
+        min-width: 200px; }
+    .siteContainer .banner .banner__punch--animation {
+      animation: appear 5s infinite alternate; }
+
+@keyframes appear {
+  0% {
+    display: none;
+    opacity: 1;
+    transform: translate(50%, -100%); }
+  50% { }
+  100% {
+    display: block;
+    transform: translate(50%, 100%);
+    opacity: 0; } }
+
+@media screen and (min-height: 10px) {
+  .siteContainer .banner .banner__punch {
+    left: 51%;
+    transform: translate(-51%, -100%); }
+    .siteContainer .banner .banner__punch img {
+      max-width: 200px; } }
+
+@media screen and (min-height: 550px) {
+  .siteContainer .banner .banner__punch img {
+    min-width: 230px; } }
+
+@media screen and (min-height: 600px) {
+  .siteContainer .banner .banner__punch img {
+    min-width: 250px; } }
+
+@media screen and (min-height: 700px) {
+  .siteContainer .banner .banner__punch {
+    left: 53%;
+    transform: translate(-53%, -100%); }
+    .siteContainer .banner .banner__punch img {
+      min-width: 300px; } }
+
+@media screen and (min-width: 768px) and (min-height: 700px) {
+  .siteContainer .banner .banner__punch img {
+    max-width: 350px; } }
+
+@media screen and (min-width: 1024px) and (min-height: 900px) {
+  .siteContainer .banner .banner__punch img {
+    max-width: 400px; } }
