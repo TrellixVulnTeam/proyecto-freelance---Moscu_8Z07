@@ -26,24 +26,22 @@
     }
 
     .banner__punch--animation {
-      //animation: handBalance 3s
-      animation: appear 5s infinite alternate;
+      animation: appear 5s infinite normal;
     }
 
     @keyframes appear {
       0% {
-        display: none;
-        opacity: 1;
-        transform: translate(50%, -100%);
+        opacity: 0;
+        transform: translate(-55%, 0);
       }
 
       50% {
+        opacity: 1;
+        transform: translate(-55%, -100%);
       }
 
       100% {
-        display: block;
-        transform: translate(50%, 100%);
-        opacity: 0;
+        transform: translate(-55%, 0);
       }
     }
 
