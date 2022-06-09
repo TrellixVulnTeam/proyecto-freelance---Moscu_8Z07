@@ -6,13 +6,15 @@
 
 @media screen and (min-height: 10px) {
   .siteContainer {
-    .banner {
-      .banner__punch {
-        left: 51%;
-        transform: translate(-51%, -100%);
-        img {
-          //background-color: aqua;
-          max-width: 200px;
+    .home {
+      .banner {
+        .banner__punch {
+          left: 51%;
+          transform: translate(-51%, 0%);
+          img {
+            //background-color: aqua;
+            max-width: 200px;
+          }
         }
       }
     }
@@ -21,11 +23,13 @@
 
 @media screen and (min-height: 550px) {
   .siteContainer {
-    .banner {
-      .banner__punch {
-        img {
-          //background-color: rgb(114, 95, 78);
-          min-width: 230px;
+    .home {
+      .banner {
+        .banner__punch {
+          img {
+            //background-color: rgb(114, 95, 78);
+            min-width: 230px;
+          }
         }
       }
     }
@@ -34,11 +38,13 @@
 
 @media screen and (min-height: 600px) {
   .siteContainer {
-    .banner {
-      .banner__punch {
-        img {
-          //background-color: rgb(114, 95, 78);
-          min-width: 250px;
+    .home {
+      .banner {
+        .banner__punch {
+          img {
+            //background-color: rgb(114, 95, 78);
+            min-width: 250px;
+          }
         }
       }
     }
@@ -47,13 +53,15 @@
 
 @media screen and (min-height: 700px) {
   .siteContainer {
-    .banner {
-      .banner__punch {
-        left: 53%;
-        transform: translate(-53%, -100%);
-        img {
-          //background-color: rgb(114, 95, 78);
-          min-width: 300px;
+    .home {
+      .banner {
+        .banner__punch {
+          left: 53%;
+          transform: translate(-53%, 0%);
+          img {
+            //background-color: rgb(114, 95, 78);
+            min-width: 300px;
+          }
         }
       }
     }
@@ -62,11 +70,13 @@
 
 @media screen and (min-width: 768px) and (min-height: 700px) {
   .siteContainer {
-    .banner {
-      .banner__punch {
-        img {
-          //background-color: rgb(173, 44, 115);
-          max-width: 350px;
+    .home {
+      .banner {
+        .banner__punch {
+          img {
+            //background-color: rgb(173, 44, 115);
+            max-width: 350px;
+          }
         }
       }
     }
@@ -75,11 +85,13 @@
 
 @media screen and (min-width: 1024px) and (min-height: 900px) {
   .siteContainer {
-    .banner {
-      .banner__punch {
-        img {
-          //background-color: rgb(44, 173, 65);
-          max-width: 400px;
+    .home {
+      .banner {
+        .banner__punch {
+          img {
+            //background-color: rgb(44, 173, 65);
+            max-width: 400px;
+          }
         }
       }
     }
