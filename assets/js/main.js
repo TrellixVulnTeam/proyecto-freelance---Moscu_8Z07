@@ -1,4 +1,4 @@
-// coding gsap library for hand animation.
+//gsap library coding for hand's animation.
 gsap.to('.handMoving', {
     duration: 2,
     y: '-100%',
@@ -13,11 +13,11 @@ let tl = gsap.timeline({
 })
 
 tl.to('.handMoving', {
-    rotation: -10
+    rotation: -6
 })
 
     .to('.handMoving', {
-        rotation: 10
+        rotation: 6
     });
 
 
