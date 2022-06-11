@@ -16,6 +16,9 @@
             max-width: 200px;
           }
         }
+        .banner__city {
+          top: 105%;
+        }
       }
     }
   }
@@ -46,6 +49,9 @@
             min-width: 250px;
           }
         }
+        .banner__city {
+          top: 105%;
+        }
       }
     }
   }
@@ -62,6 +68,9 @@
             //background-color: rgb(114, 95, 78);
             min-width: 300px;
           }
+        }
+        .banner__city {
+          top: 100%;
         }
       }
     }
@@ -80,6 +89,9 @@
             max-width: 350px;
           }
         }
+        .banner__city {
+          top: 100%;
+        }
       }
     }
   }
@@ -93,6 +105,36 @@
           img {
             //background-color: rgb(44, 173, 65);
             max-width: 400px;
+          }
+        }
+        .banner__city {
+          top: 105%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) and (min-height: 300px) {
+  .siteContainer {
+    .home {
+      .banner {
+        .banner__city {
+          top: 110%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+  .siteContainer {
+    .home {
+      .banner {
+        .banner__punch {
+          img {
+            //background-color: rgb(44, 173, 65);
+            max-width: 420px;
           }
         }
       }
