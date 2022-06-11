@@ -1,9 +1,16 @@
-@media all and (max-width: 599px) {
+@media all and (max-width: 991px) {
     nav {
         background-image: url("../img/mobile/menu_bg.png");
         background-repeat: no-repeat;
-        min-height: 50px;
         background-size: cover;
-        width: 100%;
+        width: 100vw;
+    }
+    .navbar-nav {
+        height: 80vh;
+        padding-top: 80px;
+    }
+    .navbar>.container-fluid {
+        flex-direction: row;
+        justify-content: center;
     }
 }

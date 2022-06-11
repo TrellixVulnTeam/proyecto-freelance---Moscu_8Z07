@@ -22,3 +22,7 @@ nav {
 .nav-item {
     text-align: center;
 }
+
+.navbar>.container-fluid {
+    flex-direction: column;
+}
