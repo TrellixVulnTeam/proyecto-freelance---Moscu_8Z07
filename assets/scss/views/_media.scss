@@ -1,0 +1,9 @@
+@media all and (max-width: 599px) {
+    nav {
+        background-image: url("../img/mobile/menu_bg.png");
+        background-repeat: no-repeat;
+        min-height: 50px;
+        background-size: cover;
+        width: 100%;
+    }
+}

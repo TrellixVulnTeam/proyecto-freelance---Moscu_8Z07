@@ -3,12 +3,13 @@
     src: url("../../fonts/AldotheApache.ttf");
 }
 
-.navBarColor {
-    background-color: #cd3233;
+nav {
+    background-color: $color-rojo;
+    width: 100%;
 }
 
 .nav-link {
-    color: #fde9a7;
+    color: $color-crema;
     font-family: AldoTheApache;
     font-weight: 400;
     font-size: 15px;
@@ -20,9 +21,4 @@
 
 .nav-item {
     text-align: center;
-}
-
-.navbar-inner {
-    background-image: url("../../img/mobile/menu_bg.png")!important;
-    background-repeat: repeat;
 }

@@ -1,31 +1,39 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 @font-face {
   font-family: AldoTheApache;
-  src: url("../../fonts/AldotheApache.ttf"); }
+  src: url("../../fonts/AldotheApache.ttf");
+}
 
 nav {
   background-color: #ae0c10;
-  width: 100%; }
+  width: 100%;
+}
 
 .nav-link {
   color: #fde9a7;
   font-family: AldoTheApache;
   font-weight: 400;
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 .logo {
-  width: 100px; }
+  width: 100px;
+}
 
 .nav-item {
-  text-align: center; }
+  text-align: center;
+}
 
 body {
   background-image: url("../img/bg_index.png");
-  background-repeat: repeat-y; }
+  background-repeat: repeat-y;
+}
 
 @media all and (max-width: 599px) {
   nav {
@@ -33,4 +41,7 @@ body {
     background-repeat: no-repeat;
     min-height: 50px;
     background-size: cover;
-    width: 100%; } }
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
