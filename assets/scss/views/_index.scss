@@ -1,4 +1,10 @@
 body {
   background-color: $color-claro;
   font-size: 16px;
+  .siteContainer {
+    background-image: url("../img/backgrounds/bg_index_02.png");
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+  }
 }

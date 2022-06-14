@@ -2,11 +2,15 @@
 @import "./utilities/vars";
 @import "./utilities/reset";
 
+//Body
+@import "./views/index";
+
 //Components Imports
 @import "./components/navbar";
+@import "./components/section-header";
+@import "./components/triangle-title";
 
 //Views Imports
-@import "./views/index";
 @import "./views/home";
 @import "./views/nuestras-birras";
 @import "./views/disfrutar-birras";

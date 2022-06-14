@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  .banner__triangle--black {
+    border-top: 250px solid $color-negro;
+    h2 {
+      background-color: transparent;
+      font-family: $font-main;
+      font-size: 1.5rem;
+      color: $color-crema;
+    }
+  }
+  .cardDesc {
+    width: 40%;
+    height: 200px;
+    padding: 20px;
+    position: relative;
+    background-color: $color-bordo;
+    color: $color-claro;
+    .cardDesc__rightTriangle {
+      width: 0;
+      height: 0;
+      border-bottom: 100px solid transparent;
+      border-top: 100px solid transparent;
+      border-left: 90px solid $color-bordo;
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+  }
+  .rightTriangle {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-right: 90px solid $color-bordo;
+    position: absolute;
+    top: 55%;
+    right: 0;
+  }
+}

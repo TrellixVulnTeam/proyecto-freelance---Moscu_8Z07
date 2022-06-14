@@ -1,18 +1,24 @@
-//gsap library coding for hand's animation.
-gsap.to('.banner__punch--animation', {
-    duration: 2,
-    y: '-100%',
-    opacity: 1
-});
+let tl1 = gsap.timeline({
+    defaults: { duration: 1 }
+})
 
-let tl = gsap.timeline({
+tl1.to('.banner__punch--animation', {
+    y: '-50%',
+})
+
+    .to('.banner__punch--animation', {
+        y: '-100%',
+        opacity: 1
+    });
+
+let tl2 = gsap.timeline({
     delay: 2,
     repeat: -1,
     yoyo: true,
     defaults: { duration: 1 }
 })
 
-tl.to('.banner__punch--animation', {
+tl2.to('.banner__punch--animation', {
     rotation: -6
 })
 
