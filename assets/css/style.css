@@ -35,7 +35,8 @@ header {
           font-size: 1.2rem; }
 
 .navbar > .container-fluid {
-  flex-direction: column; }
+  width: 80%;
+  max-width: 1360px; }
 
 .section__header {
   width: 100%;
@@ -247,4 +248,5 @@ header {
     padding-top: 80px; }
   .navbar > .container-fluid {
     flex-direction: row;
-    justify-content: center; } }
+    justify-content: center;
+    width: 100%; } }

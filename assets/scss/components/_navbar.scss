@@ -24,5 +24,6 @@ header {
 }
 
 .navbar > .container-fluid {
-  flex-direction: column;
+  width: 80%;
+  max-width: 1360px;
 }
