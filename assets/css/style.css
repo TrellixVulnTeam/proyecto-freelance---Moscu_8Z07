@@ -244,6 +244,6 @@ header {
     height: 80vh;
     padding-top: 80px; }
   .navbar > .container-fluid {
-    width: 100%;
     flex-direction: row;
-    justify-content: center; } }
+    justify-content: center;
+    width: 100%; } }
