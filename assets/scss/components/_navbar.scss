@@ -1,13 +1,9 @@
 header {
   width: 100%;
-  //position: fixed;
-  z-index: 9;
   nav {
     background-color: $color-rojo;
     width: 100%;
     .container-fluid {
-      display: flex;
-
       .logo {
         width: 100px;
       }
@@ -24,5 +20,6 @@ header {
 }
 
 .navbar > .container-fluid {
-  flex-direction: column;
+  width: 80%;
+  max-width: 1360px;
 }
