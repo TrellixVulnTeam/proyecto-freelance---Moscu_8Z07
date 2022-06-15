@@ -14,13 +14,14 @@
     top: 80px;
     text-align: center;
     h1 {
+      color: $color-negro;
       font-family: $font-main;
       font-size: 2rem;
     }
     h2 {
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
       font-size: 0.8rem;
-      color: $color-claro;
+      color: $color-crema;
       background-color: $color-negro !important;
     }
   }
